@@ -1,0 +1,214 @@
+{
+    "config": {
+        "layoutType": 1,
+        "bgColor": "#fff",
+        "repulsion": 120,
+        "attractive": 0.4,
+        "elastic": 6
+    },
+    "groups": [
+
+        {
+            "member": [16, 19],
+            "bgColor": "#b6f6bf",
+            "nid": 202,
+            "attachment": [
+                {
+                    "text": "长安城的面积达83.1平方公里，按中轴对称布局，古典范。",
+                    "dy": -10,
+                    "dx": -100,
+                    "rotate": 5,
+                    "bgColor": "#fff"
+
+                },
+                {
+                    "text": "长安城的面积达83.1平中轴对称布局，古典范。",
+                    "dy": -20
+
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "长安",
+            "icon": "node",
+            "nid": 1,
+            "attachment": [
+                {
+                    "text": "长安城的面积达83.1平方公里，按中轴对称布局，由外郭城宫城和皇城组成\n。城内街道纵横交市总体规划整齐，布局严整，堪称中国古代都城的典范。",
+                    "dy": -10
+
+                }
+            ]
+        },
+        {
+            "name": "晋阳",
+            "icon": "server",
+            "nid": 2
+        },
+        {
+            "name": "潼关",
+            "icon": "node",
+            "nid": 3
+        },
+        {
+            "name": "上党",
+            "icon": "cloud",
+            "nid": 4
+
+        },
+        {
+            "name": "南海",
+            "icon": "subnetwork",
+            "nid": 5
+        },
+        {
+            "name": "临安",
+            "icon": "node",
+            "nid": 6,
+            "highlight":"#f00",
+            "edgeType": 1
+        },
+        {
+            "name": "瓜州",
+            "icon": "subnetwork",
+            "nid": 7
+        },
+        {
+            "name": "金陵",
+            "icon": "subnetwork",
+            "nid": 8
+
+        },
+        {
+            "name": "商丘",
+            "icon": "subnetwork",
+            "nid": 9
+        },
+
+        {
+            "name": "淄博",
+            "icon": "subnetwork",
+            "nid": 10
+        },
+        {
+            "name": "大梁",
+            "icon": "subnetwork",
+            "nid": 11
+        },
+        {
+            "name": "安邑",
+            "icon": "subnetwork",
+            "nid": 12
+        },
+        {
+            "name": "安阳",
+            "icon": "subnetwork",
+            "nid": 13
+
+        },
+
+        {
+            "name": "咸阳",
+            "icon": "subnetwork",
+            "nid": 14
+
+        },
+
+        {
+            "name": "扬州",
+            "icon": "subnetwork",
+            "nid": 15
+        },
+
+        {
+            "name": "洛阳",
+            "icon": "subnetwork",
+            "nid": 16
+        },
+
+        {
+            "name": "襄阳",
+            "icon": "node",
+            "nid": 17
+
+        },
+        {
+            "name": "苏州",
+            "icon": "node",
+            "nid": 18
+
+        },
+        {
+            "name": "渔阳",
+            "icon": "node",
+            "nid": 19
+
+        },
+        {
+            "name": "邯郸",
+            "icon": "node",
+            "nid": 20
+
+        }
+    ],
+    "edges": [
+        {
+            "form": 1,
+            "to": 2,
+            "nid": 121
+        },
+        {
+            "form": 5,
+            "to": 12,
+            "nid": 122
+        },
+        {
+            "form": 11,
+            "to": 2,
+            "nid": 123
+        },
+        {
+            "form": 1,
+            "to": 2,
+            "nid": 124
+        },
+        {
+            "form": 15,
+            "to": 2,
+            "nid": 125
+        },
+        {
+            "form": 11,
+            "to": 12,
+            "nid": 126
+        },
+        {
+            "form": 1,
+            "to": 18,
+            "nid": 127,
+            "name": "直道直道"
+        },
+
+        {
+            "form": 1,
+            "to": 14,
+            "nid": 128
+        }
+        ,
+
+        {
+            "form": 1,
+            "to": 14,
+            "nid": 128
+        }
+        ,
+
+        {
+            "form": 19,
+            "to": 16,
+            "nid": 129
+        }
+    ]
+}

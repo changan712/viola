@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.opt {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .6);
+    padding: 15px;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #000;
+
+}
+
+body {
+    background: #fff;
+}
+
+.canvas {
+    height: 100%;
+    display: block;
+    outline: none;
+    box-sizing: padding-box;
+}
+
+#imgcon-close {
+
+    position: absolute;
+
+    font-size: 12px;
+    font-family: tohama serif;
+    padding: 5px;
+
+    right: 10px;
+    top: 10px;
+    cursor: default;
+}
+
+#imgcon-close:hover{
+   background-color: #bbb;
+}
+
+#imgcon .con {
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#imgcon .con img {
+    width: 100%;
+    height: auto;
+}
+
+.opt .btn{float: right}
+
+.opt .info{ color: #eee;}
+
+.opt .info span{margin: 0 15px 0 0;}
+
+.btn {
+    background: #f0f0f0;
+    border: 1px solid #333;
+    font-size: 12px;
+    line-height: 26px;
+    height: 26px;
+    padding: 0 10px;
+    display: inline-block;
+    cursor: default;
+}
+
+.btn.disabled{
+    background-color: #ccc;
+    color:#666;
+
+}
+.btn:not(.disabled):hover{
+    background-color:cornflowerblue;
+}
+

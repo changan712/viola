@@ -1,0 +1,173 @@
+{
+    "config": {
+        "layoutType": 2,
+        "direction": "bottom",
+        "bgColor": "#fff"
+    },
+    "title": "测试测试",
+    "groups": [
+        {
+            "member": [4, 5],
+            "groupType": 2,
+            "nid":101
+        },
+        {
+            "member": [10, 9, 11],
+            "bgColor": "#ffeeee",
+            "nid":102
+        }
+    ],
+    "nodes": [
+        {
+            "name": "test1",
+            "icon": "../images/exchanger_icon.png",
+            "nid": 1,
+            "highlight":"#f00",
+            "attachment": [
+                {
+                    "text": "长安城的面积达83.1平中轴对称布局，古典范。",
+                    "dy": -20
+
+
+                }
+            ]
+        },
+        {
+            "name": "test2",
+            "icon": "server",
+            "from": 1,
+            "nid": 2,
+            "direction": "left",
+            "layoutType": 2
+        },
+        {
+            "name": "test3",
+            "icon": "nonde",
+            "from": 1,
+            "nid": 3
+        },
+
+        {
+            "name": "test4",
+            "icon": "cloud",
+            "highlight":"#f0f",
+            "from": 2,
+            "nid": 4,
+            "direction": "left"
+
+        },
+        {
+            "name": "test5",
+            "icon": "subnetwork",
+            "from": 4,
+            "nid": 5,
+            "edgeType": 2
+        },
+        {
+            "name": "test6",
+            "icon": "node",
+            "from": 1,
+            "nid": 6,
+            "edgeType": 4,
+            "attachment":[ {
+                "text": "长安城的面积达83.1平方公里，按中轴对称布局，古典范。",
+                "dy": -10,
+                "dx": -100,
+                "rotate": 5,
+                "bgColor": "#fff"
+
+            }]
+        },
+        {
+            "name": "test7",
+            "icon": "subnetwork",
+            "from": 1,
+            "nid": 7
+        },
+        {
+            "name": "viola",
+            "icon": "subnetwork",
+            "from": 1,
+            "nid": 8
+
+        },
+        {
+            "name": "test9",
+            "icon": "subnetwork",
+            "from": 2,
+            "nid": 9
+        },
+
+        {
+            "name": "test10",
+            "icon": "subnetwork",
+            "from": 2,
+            "nid": 10
+        },
+        {
+            "name": "test11",
+            "icon": "subnetwork",
+            "from": 2,
+            "nid": 11
+        },
+        {
+            "name": "test12",
+            "icon": "subnetwork",
+            "from": 6,
+            "nid": 12
+        },
+        {
+            "name": "test13",
+            "icon": "subnetwork",
+            "from": 6,
+            "nid": 13
+
+        },
+
+        {
+            "name": "test14",
+            "icon": "subnetwork",
+            "from": 13,
+            "nid": 14
+
+        },
+
+        {
+            "name": "test15",
+            "icon": "subnetwork",
+            "from": 14,
+            "nid": 15
+
+        },
+
+        {
+            "name": "test16",
+            "icon": "subnetwork",
+            "from": 15,
+            "nid": 16
+
+        },
+
+        {
+            "name": "test17",
+            "icon": "node",
+            "from": 16,
+            "nid": 17
+
+        },
+        {
+            "name": "test18",
+            "icon": "node",
+            "from": 17,
+            "nid": 18
+
+        },
+        {
+            "name": "test19",
+            "icon": "node",
+            "from": 17,
+            "nid": 19
+
+        }
+    ]
+}
